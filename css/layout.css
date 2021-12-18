@@ -1,3 +1,37 @@
+.clearfix::after{
+    content:'';
+    clear:both;
+    display:table;
+}
+.header_layout{
+    background: linear-gradient(96.22deg, #043CAA -0.66%, rgba(4, 60, 170, 0.86) 44.05%, rgba(4, 60, 170, 0) 100%), url(../img/headerBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+@media (min-width:1025px)  { 
+
+    .header_left_side{
+        float: left;
+       
+    }
+    .person_image{
+        
+        width: 483px;
+        height: 500px;
+        margin-left:70%;
+              
+    }
+}
+@media (min-width:300px)and (max-width:1024px){
+    .header_left_side{
+        display:block
+    }
+    .person_image{
+        display: none;
+    }
+}
 .header_layout{
     background: linear-gradient(96.22deg, #043CAA -0.66%, rgba(4, 60, 170, 0.86) 44.05%, rgba(4, 60, 170, 0) 100%), url(image.png);
 }
