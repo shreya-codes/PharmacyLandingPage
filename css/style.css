@@ -34,15 +34,7 @@ h1{
     overflow: hidden;
     
 }
-.search{
-    margin-top:2em;
-    height: 48px;
-    padding-bottom: 3em;
-    font-style: normal;
-    font-weight: normal;
-    width:80%;
-   
-}
+
 
 .search_enter input{
     margin:0%;
