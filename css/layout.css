@@ -34,6 +34,7 @@
 }
 .header_layout{
     background: linear-gradient(96.22deg, #043CAA -0.66%, rgba(4, 60, 170, 0.86) 44.05%, rgba(4, 60, 170, 0) 100%), url(image.png);
+    padding:5px;
 }
 
 @media screen and (min-width: 580px) {
@@ -98,4 +99,19 @@
         width:35%;
         float:left;
     }
+
 }
+
+}
+
+@media screen and (max-width: 1270px){
+    .med{
+        display: none;
+    }
+}
+@media screen and (max-width:800px){
+    .middle_review{
+        display:none;
+    }
+}
+

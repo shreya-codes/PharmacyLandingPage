@@ -35,11 +35,9 @@ h1{
     
 }
 .search{
-    margin-top:4em;
-    margin-left:5%;
+    margin-top:2em;
     height: 48px;
     padding-bottom: 3em;
-    
     font-style: normal;
     font-weight: normal;
     width:80%;
@@ -52,8 +50,9 @@ h1{
     border: 0;
     border-radius: 20px 0 0px 20px;
     height: 40px;
+    width:250px;
     background-color: #DEE9FF;
-    padding-left: 7%;
+    padding-left: 5%;
     font-size: 0.7em;
     color: #7A7A7A;
 }
@@ -61,6 +60,7 @@ h1{
 button{
     color: #1BC768;
     border:1px solid #1BC768;
+    background-color: #e5e5e5;
     border-radius: 20px;
     font-style: normal;
     font-weight: 500;
@@ -140,6 +140,7 @@ ul{
 #image1, #image3{
     padding:0px 0px 0px 22px;
 }
+
 .motto_main {
     
     font-style: normal;
@@ -396,4 +397,72 @@ ul{
         width:10%;
         margin-right: 0;
     }
+
+.med{
+    height:350px;
+    padding:0px 0px 20px 200px;
+}
+.client_review{
+    float:right;
+    padding:0px 200px;
+}
+.review_topic{
+    position: relative;
+    color: black;
+    font-size: large;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 50px; 
+    padding: 60px 0px 0px 0px;
+}
+.review_topic img{
+    position: absolute;
+    width:20%;
+    left:35%;
+}
+.review_body{
+    text-align: left;
+    font-size: 18px;
+    line-height:25px;
+}
+
+.client_name{
+    color:#043CAA;
+    padding: 20px 0px 0px 0px;
+}
+.logo{
+    font-style: normal;
+    font-size: 2em;
+    width: 80%;
+    font-weight: 750;
+    color: #FFFFFF; 
+}
+.user_activities{
+    padding:30px 0px 150px 0px;
+}
+.user_activities button{
+    padding:2px 30px;
+    color:white;
+    background-color: #1BC768;
+    font-size: 90%;
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding:73px;
+}
+
+.jargon_options{
+    padding:18px 65px;
+}
+.jargon_options button{
+    width:80px;
+    font-size: 15px;
+    background:transparent;
+    border:1px solid white;
+    color:white;
+}
+.jargon_options button:hover{
+    background-color:white;
+    color:#043CAA;
 }
