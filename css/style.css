@@ -6,6 +6,11 @@
     line-height: 1.5em;
     
 }
+a{
+    text-decoration: none;
+    color:white;
+    padding:73px;
+}
 h1{
     color: #043CAA;
 }
@@ -299,8 +304,7 @@ ul{
     .search_enter input, .search_button{
         font-size:0.9em;
     }
-    
-    
+      
     .affiliations_logo_layout img{
         width:30%;
     } 
@@ -389,7 +393,7 @@ ul{
         width:10%;
         margin-right: 0;
     }
-
+}
 .med{
     height:350px;
     padding:0px 0px 20px 200px;
@@ -437,11 +441,6 @@ ul{
     color:white;
     background-color: #1BC768;
     font-size: 90%;
-}
-a{
-    text-decoration: none;
-    color:white;
-    padding:73px;
 }
 
 .jargon_options{

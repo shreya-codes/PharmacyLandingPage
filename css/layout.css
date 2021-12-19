@@ -10,6 +10,7 @@
     overflow: hidden;
     
 }
+
 @media (min-width:1025px)  { 
 
     .header_left_side{
@@ -24,7 +25,7 @@
               
     }
 }
-@media (min-width:300px)and (max-width:1024px){
+@media screen and (max-width:1024px){
     .header_left_side{
         display:block
     }
@@ -54,21 +55,21 @@
         padding:2px 5px;
     }
     .benefits_detail1, .benefits_detail3{
-        width:60%;
+        width:40%;
         float:left;
     }
     .sideImg1, .sideImg3{
-        width:30%;
+        width:40%;
         float:right;
-        right:15%;
+        /* right:5%; */
 
     }
     .benefits_detail2{
-        width:55%;
+        width:40%;
         float:right;
     }
     .sideImg2{
-        width:30%;
+        width:40%;
         float:left;
     }
 }
@@ -102,7 +103,6 @@
 
 }
 
-}
 
 @media screen and (max-width: 1270px){
     .med{
@@ -114,4 +114,5 @@
         display:none;
     }
 }
+
 
