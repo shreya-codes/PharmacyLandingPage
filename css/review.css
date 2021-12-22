@@ -1,0 +1,23 @@
+.review_topic{
+    font-size: 2.25rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.client_review_content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em
+}
+.carasoul_icon{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+.client_review_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    padding-top:1em;
+
+}
