@@ -1,0 +1,151 @@
+
+.motto_main {
+    
+    font-style: normal;
+    font-size: 2.3em;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 15%;
+    font-weight: 750;
+    color: #FFFFFF; 
+}
+
+h1{
+    color: #043CAA;
+}
+.benefits_title_1, .benefits_title_2, .benefits_title_3{
+    color: #043CAA;
+    font-size: large;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px; 
+}
+
+.benefits_list_1{
+    line-height:24.5px;
+}
+
+.motto_bottom{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    width:80%;
+    margin-left:5%;
+    margin-top: 1.5%;
+    line-height: 1.3em;
+    color: #FFFFFF;
+    overflow: hidden;
+    
+}
+.search{
+    margin-top:4em;
+    margin-left:5%;
+    height: 48px;
+    padding-bottom: 3em;
+    
+    font-style: normal;
+    font-weight: normal;
+    width:80%;
+   
+}
+
+.search_enter input{
+    margin:0%;
+    padding: 0%;
+    border: 0;
+    border-radius: 20px 0 0px 20px;
+    height: 40px;
+    background-color: #DEE9FF;
+    padding-left: 7%;
+    font-size: 0.7em;
+    color: #7A7A7A;
+}
+
+button{
+    color: #1BC768;
+    border:1px solid #1BC768;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    padding:5px 20px 5px 20px;
+}
+
+.search_button{
+    margin:0%;
+    padding: 0%;
+    border: 0;
+    border-radius: 0px 20px 20px 0px;
+    height: 40px;
+    background-color:#1BC768;
+    font-size: 0.7em;
+    padding-left:3%;
+    padding-right: 7%;
+    color:#FFFFFF; 
+}
+
+.middle_benefits, .keyBenefits{
+    text-align:center;
+}
+.benefits_detail1, .benefits_detail2, .benefits_detail3{
+    text-align: left;
+    font-size: 18px;
+    padding:50px;
+}
+
+ul{
+    list-style-type: none;
+}
+.sideImg1, .sideImg3 {
+    position: relative;
+    width:60%;
+    right:12%;
+}
+.med{
+width: 648px;
+height: 466px;
+}
+
+.sideImg2{
+    position: relative;
+    width:50%;
+    right:12%;
+}
+@keyframes circle{
+    0%{
+      transform:rotate(0deg)
+                translate(-5px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-5px)
+                rotate(-360deg);
+    }
+  }
+
+#img1 {
+    position: absolute;
+    z-index: 10;
+    top:20px;
+    height:200px;
+}
+#img2 {
+    position: absolute;
+    z-index: 100;
+    height:220px;
+}
+#image1, #image2 ,#image3 {
+    position: absolute;
+    top:40px;
+    padding:0px 0px 0px 58px;
+    z-index: 1000;
+    height:130px;
+    animation:circle 5s linear infinite;
+}
+#image1, #image3{
+    padding:0px 0px 0px 22px;
+}
