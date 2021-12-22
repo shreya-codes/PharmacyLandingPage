@@ -1,8 +1,9 @@
-.clearfix::after{
+..clearfix::after{
     content:'';
     clear:both;
     display:table;
 }
+/* for bottom header responsive */
 .header_layout{
     background: linear-gradient(96.22deg, #043CAA -0.66%, rgba(4, 60, 170, 0.86) 44.05%, rgba(4, 60, 170, 0) 100%), url(../img/headerBackground.png);
     background-repeat: no-repeat;
@@ -25,7 +26,7 @@
               
     }
 }
-@media screen and (max-width:1024px){
+@media (min-width:300px)and (max-width:1024px){
     .header_left_side{
         display:block
     }
@@ -33,10 +34,7 @@
         display: none;
     }
 }
-.header_layout{
-    background: linear-gradient(96.22deg, #043CAA -0.66%, rgba(4, 60, 170, 0.86) 44.05%, rgba(4, 60, 170, 0) 100%), url(image.png);
-    padding:5px;
-}
+/* bottom header responsive layout ends here */
 
 @media screen and (min-width: 580px) {
     .middle_benefits{
